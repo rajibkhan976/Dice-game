@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+	<link href="index.css" rel="stylesheet">
+	<script src="index.js"></script>
+  </head>
+  <body>
+	<div class="dice-game-header">
+		<p id="name">Namn: Rajib Hossain Khan</p>
+		<p id="date">Datum: 2020-06-01</p>
+		<p id="game" lang="sv">Programmet: Obegr&auml;nsad 6-sidig t&auml;rning</p>
+	</div>
+	<div class="dice-game-body">
+	  <div class="user-input">
+		<label for="dice-number">Antalet t&auml;rningar:</label>
+		<input type="number" id="dice-number" name="dice-number" min="1" max="5" required>
+		<p id="error-message"></p>
+	  </div>
+	  <div class="submit-form">
+		<input id="submit-button" type="submit" value="Tryck">
+		<input id="reset-button" type="reset" value="Rensa">
+	  </div>
+	</div>
+	<div class="dice-game-footer">
+		<p id="dice-number"></p>
+		<p id="dice-score"></p>
+		<p id="final-result"></p>
+	</div>
+  </body>
+</html>
