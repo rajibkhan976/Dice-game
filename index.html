@@ -8,23 +8,26 @@
   </head>
   <body>
 	<div class="dice-game-header">
+		<img src="dice.jpg" width="150" height="150" alt="dice">
 		<p id="name">Namn: Rajib Hossain Khan</p>
-		<p id="date">Datum: 2020-06-01</p>
-		<p id="game" lang="sv">Programmet: Obegr&auml;nsad 6-sidig t&auml;rning</p>
+		<p id="date">F&auml;rdigst&auml;llande datum: 2020-06-01 kl. 23:59</p>
+		<p id="game" lang="sv">Programmet: Obegr&auml;nsad 6-sidig t&auml;rning spel</p>
 	</div>
 	<div class="dice-game-body">
 	  <div class="user-input">
-		<label for="dice-number">Antalet t&auml;rningar:</label>
-		<input type="number" id="dice-number" name="dice-number" min="1" max="5" required>
+		<label for="dice-input-number">Antalet t&auml;rningar:</label>
+		<input type="number" id="dice-input-number" name="dice-input-number" min="1" max="5" required>
 		<p id="error-message"></p>
 	  </div>
 	  <div class="submit-form">
-		<input id="submit-button" type="submit" value="Tryck">
-		<input id="reset-button" type="reset" value="Rensa">
+		<input id="submit-button" type="submit" value="V&auml;lj och tryck">
+		<input id="reset-button" type="reset" value="Spela igen">
 	  </div>
 	</div>
 	<div class="dice-game-footer">
-		<p id="dice-number"></p>
+		<p id="dice-output-number"></p>
+		<p id="dice-exceptional-score"></p>
+		<p id="dice-extra-number"></p>
 		<p id="dice-score"></p>
 		<p id="final-result"></p>
 	</div>

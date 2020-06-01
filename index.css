@@ -1,17 +1,24 @@
 .dice-game-header {
 	display: inline-block;
-	margin-top: 8em;
-	margin-left: 40%;
+	width: 800px;
+	margin-top: 1em;
+	margin-left: 35%;
 }
 
 .dice-game-body {
 	display: inline-block;
+	width: 800px;
 	margin-top: 0.5em;
-	margin-left: 40%;
+	margin-left: 35%;
 }
 
 .dice-game-footer {
 	display: inline-block;
+	width: 800px;
 	margin-top: 0.5em;
-	margin-left: 40%;
+	margin-left: 35%;
+}
+
+#reset-button {
+	margin-left: 0.5em;
 }
